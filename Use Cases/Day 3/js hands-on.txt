@@ -1,0 +1,17 @@
+1. Declare two variables: admin and name.
+Assign your name as value to name.
+Copy the value from name to admin.
+Show the value of admin using log (must output Your name).
+
+2. Conditional Statements
+Using the if..else construct, write the code which asks: ‘What is the “official” name of JavaScript?’
+If the visitor enters “ECMAScript”, then output “Right!”, otherwise – output: “You don’t know? ECMAScript!”
+
+3. Using if..else, write the code which gets a number via prompt and then shows in alert:**
+
+1, if the value is greater than zero,
+-1, if less than zero,
+0, if equals zero.
+error, if the entered value is not a number
+
+4. Write a JavaScript function to merge two arrays and removes all duplicates elements. (using filter)

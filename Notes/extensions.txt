@@ -1,0 +1,3 @@
+"Salesforce Extension Pack"
+Install SFDX CLi
+https://trailhead.salesforce.com/en/content/learn/projects/quick-start-lightning-web-components/set-up-salesforce-dx?trail_id=build-lightning-web-components

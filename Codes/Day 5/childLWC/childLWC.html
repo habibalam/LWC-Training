@@ -1,0 +1,8 @@
+<template>
+  <div class="slds-card slds-p-around_medium">
+    <p class="slds-text-align_center">In the Child: {pubValue}</p>
+    <template if:true={isShown}>
+      <p class="slds-text-align_center">Rendered Conditionally from parent</p>
+    </template>
+  </div>
+</template>

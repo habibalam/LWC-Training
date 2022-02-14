@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Tables</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <table class="table" id="container-table">
+      <caption>
+        Trainee List
+      </caption>
+      <thead>
+        <th class="border-cls">Trainee Name</th>
+        <th class="border-cls">Experience</th>
+        <th class="border-cls" colspan="2">Phone number</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border-cls align-center">Priya</td>
+          <td class="border-cls align-center">9</td>
+          <td class="border-cls align-center">9845128</td>
+          <td class="border-cls align-center">9845128</td>
+        </tr>
+        <tr>
+          <td class="border-cls align-center">Avesh</td>
+          <td class="border-cls align-center">5</td>
+          <td class="border-cls align-center">9845128</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

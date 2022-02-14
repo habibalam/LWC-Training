@@ -1,0 +1,20 @@
+<template>
+  <lightning-card title="Using Slots">
+    <div class="slds-p-around_medium">
+      <p class="slds-m-vertical_xx-small slds-text-heading_medium">
+        Using Unnamed Slots
+      </p>
+      <slot>Will be replaced</slot><br />
+      <slot>Another unnamed slot to be replaced</slot>
+      <p class="slds-m-vertical_xx-small slds-text-heading_medium">
+        Using Named Slots
+      </p>
+      <p class="slds-m-around_xxx-small">
+        First Name: <slot name="firstName">Dummy First Name</slot>
+      </p>
+      <p class="slds-m-around_xxx-small">
+        Last Name: <slot name="lastName">Dummy Last Name</slot>
+      </p>
+    </div>
+  </lightning-card>
+</template>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>First Webpage</title>
+  </head>
+  <body>
+    <!--Comment-->
+    <h1 title="Header tooltip">The first Header</h1>
+    <h3>Header but smaller</h3>
+    <!--h6>header but smallest</h6-->
+    <p title="a paragraph tooltip">A new paragraph to start with</p>
+    <br />
+    <p>Just gave a breakline</p>
+    <hr />
+    <!--p>Another paragraph after a horizontal line</p>
+    <strong>This is a bold texxt</strong>
+    <center>This is centered content but deprecated</center>
+    <b>Bold but sadly deprecated</b-->
+
+    <!--HTML-->
+    <h2>Learning Lists</h2>
+    <ul>
+      <li>First element</li>
+      <li>Second Element</li>
+      <li>Getting longer</li>
+    </ul>
+    <ol>
+      <li>First element but ordered</li>
+      <li>Second Element but ordered</li>
+      <li>Getting longer but ordered</li>
+    </ol>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hypertext Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Stylesheets</dd>
+    </dl>
+    <!--Nested List-->
+    <ul>
+      <li>
+        Outer list Item 1
+        <ul>
+          <li>
+            Nested Item 1
+            <ol>
+              <li>Ordered and nested</li>
+            </ol>
+          </li>
+          <li>Nested Item 2</li>
+        </ul>
+      </li>
+      <li>Outer list item 2</li>
+    </ul>
+    <!--Roman Font for ol-->
+    <ol type="A">
+      <li>First element but ordered and in Roman</li>
+      <li>Second Element but ordered and in Roman</li>
+      <li>Getting longer but ordered and in Roman</li>
+    </ol>
+    <a href="https://www.google.com">Google</a>
+  </body>
+</html>

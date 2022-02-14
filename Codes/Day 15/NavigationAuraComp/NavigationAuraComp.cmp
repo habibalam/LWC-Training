@@ -1,0 +1,16 @@
+<aura:component
+  implements="flexipage:availableForAllPageTypes, lightning:isUrlAddressable"
+  access="global"
+>
+  <aura:attribute type="String" name="receivedMessage" />
+  <lightning:card title="Aura Component For Navigation">
+    <p class="slds-m-around_medium">This is a custom aura component</p>
+    <!--p class="slds-m-around_medium">{!v.receivedMessage}</p-->
+    <p class="slds-m-around_medium">{!v.receivedMessage.recordData.Name}</p>
+    <p class="slds-m-around_medium">{!v.receivedMessage.source}</p>
+  </lightning:card>
+  <lightning:messageChannel
+    type="demoMessageChannel__c"
+    onMessage="{!c.handleMessage}"
+  />
+</aura:component>

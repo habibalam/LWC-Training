@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "Name": {
+            "value" : "Burlington Textiles Corp of Africa"
+        },
+        "Industry": {
+            "value" : "Apparel"
+        },
+        "Phone": {
+            "value" : "(336) 222-7000"
+        }
+    }
+}

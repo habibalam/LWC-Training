@@ -1,0 +1,14 @@
+.table, .border-cls{
+    border: 1px solid black;
+}
+/*.table{
+    width: 70%;
+    border-collapse: collapse;
+}*/
+#container-table{
+    width: 70%;
+    border-collapse: collapse;
+}
+.align-center{
+    text-align: center;
+}
